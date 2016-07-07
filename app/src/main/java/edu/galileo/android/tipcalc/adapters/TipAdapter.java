@@ -52,10 +52,7 @@ public class TipAdapter  extends RecyclerView.Adapter<TipAdapter.ViewHolder>{
     }
 
     @Override
-    public int getItemCount() {
-
-        return dataset.size();
-    }
+    public int getItemCount() { return dataset.size();    }
 
     public void add(TipRecord record){
         dataset.add(0, record);

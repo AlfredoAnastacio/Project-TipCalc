@@ -46,7 +46,7 @@ public class TipHistoryListFragment extends Fragment implements TipHistoryListFr
 
     private void initAdapter() {
         if (adapter == null){
-            adapter = new TipAdapter(getActivity().getApplicationContext(), (OnItemClickListener) new ArrayList<TipRecord>());
+            adapter = new TipAdapter(getActivity().getApplicationContext(), this);
         }
     }
 

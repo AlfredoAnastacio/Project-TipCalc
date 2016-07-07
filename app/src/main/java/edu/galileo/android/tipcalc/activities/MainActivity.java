@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         handleTipChange(-TIP_STEP_CHANGE);
     }
 
-    @OnClick(R.id.btnDecrease)
+    @OnClick(R.id.btnClear)
     public void handleClickClear(){
         fragmentListener.clearList();
     }
